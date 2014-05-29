@@ -39,19 +39,19 @@
 
 a) GET /api/user 
 
- curl -H 'Accept: application/json; indent=4' -u pawel@berezovskiy.su:gfhjkmxtu http://127.0.0.1:8081/api/user/
+ curl -H 'Accept: application/json; indent=4' -u pawel@berezovskiy.su:password http://127.0.0.1:8081/api/user/
 
 b) GET PATCH /api/user
 
-curl --request PATCH http://127.0.0.1:8081/api/user/ -u email:password  -d "age=19"
+curl --request PATCH http://127.0.0.1:8081/api/user/ -u pawel@berezovskiy.su:password  -d "age=19"
 
 c) GET /api/users
 
-curl -H 'Accept: application/json; indent=4' -u pawel@berezovskiy.su:gfhjkmxtu http://127.0.0.1:8081/api/users/
+curl -H 'Accept: application/json; indent=4' -u pawel@berezovskiy.su:password http://127.0.0.1:8081/api/users/
 
 d) GET /api/users/{user-id}
 
- curl -H 'Accept: application/json; indent=4' -u pawel@berezovskiy.su:gfhjkmxtu http://127.0.0.1:8081/api/users/pawel@berezovskiy.su/
+ curl -H 'Accept: application/json; indent=4' -u pawel@berezovskiy.su:password http://127.0.0.1:8081/api/users/pawel@berezovskiy.su/
 
 
 
